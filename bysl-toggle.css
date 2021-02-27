@@ -1,0 +1,18 @@
+#x-bysltoggle {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 50%;
+	z-index: 20;
+	transition: background-color 0.3s, left 0.3s;
+}
+
+#x-bysltoggle.x-by {
+	left: 50%;
+	background: rgb(2, 192, 118);
+}
+
+#x-bysltoggle.x-sl {
+	left: 0;
+	background: rgb(248, 73, 96);
+}

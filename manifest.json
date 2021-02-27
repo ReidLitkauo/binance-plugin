@@ -1,0 +1,17 @@
+{
+
+  "manifest_version": 2,
+  "name": "Binance Plugin (crexalbo)",
+  "version": "1.0",
+
+  "description": "Adds a bit of functionality to Binance's trade window, just for funsies",
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.binance.com/en/trade/*"],
+      "js": ["jquery-3.5.1.min.js", "globals.js", "update-state.js", "bysl-toggle.js", "crextab.js"],
+      "css": ["bysl-toggle.css", "crextab.css"]
+    }
+  ]
+
+}

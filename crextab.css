@@ -1,0 +1,83 @@
+/*##############################################################################
+ * /crextab.css
+ * Styling for my panel on the bottom-left.
+ */
+
+#panel-crex {
+	color: rgb(230, 232, 234);
+}
+
+/*##############################################################################
+ * Parameters shown on the top-right
+ */
+
+#panel-crex >span {
+	position: absolute;
+	top: 1em;
+	right: 1em;
+	font-size: 85%;
+}
+
+#panel-crex >span >* {
+	margin-left: 1em;
+}
+
+#panel-crex >span >span {
+	font-size: 110%;
+}
+
+#panel-crex >span input {
+	margin: 0.0em;
+	padding: 0.0em;
+	border-width: 0.1em;
+	font-size: 80%;
+}
+
+#panel-crex >span >span input {
+	font-size: 90%;
+}
+
+#panel-crex >span #x-priceinput {
+	width: 8em;
+}
+
+#panel-crex >span #x-profitinput {
+	width: 4.5em;
+}
+
+#panel-crex >span #x-commission {
+	width: 4em;
+}
+
+#panel-crex >span #x-poslife {
+	width: 3em;
+}
+
+#panel-crex >span #x-interest {
+	width: 5em;
+}
+
+/*##############################################################################
+ * Styling for the panel itself
+ */
+
+#panel-crex >div {
+	display: flex;
+}
+
+#panel-crex >div >div {
+	flex: 1 1 auto;
+}
+
+#panel-crex >div >div >h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+#panel-crex >div >div.x-marginby >h2 {
+	color: rgb(2, 192, 118);
+}
+
+#panel-crex >div >div.x-marginsl >h2 {
+	color: rgb(248, 73, 96);
+}
