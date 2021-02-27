@@ -1,6 +1,8 @@
 //##############################################################################
 // /update-state.js
 // Gather all relevant information about the state of the UI into one spot.
+// Copyright (C) 2021 Reid Litkauo
+// License: GNU GPL v3
 
 setTimeout(() => { setInterval(() => {
 

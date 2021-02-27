@@ -2,6 +2,8 @@
 // /bysl-toggle.js
 // That little red-green panel that only shows one of the buy/sell input
 // groups at a time.
+// Copyright (C) 2021 Reid Litkauo
+// License: GNU GPL v3
 
 //##############################################################################
 // UI Setup

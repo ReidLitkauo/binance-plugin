@@ -1,6 +1,8 @@
 //##############################################################################
 // /crextab.js
 // Code for my tab on the bottom-left
+// Copyright (C) 2021 Reid Litkauo
+// License: GNU GPL v3
 
 //##############################################################################
 // UI Setup
@@ -12,7 +14,7 @@ function load_crextabUI () {
 	// Add my tab to the tab list
 	$(q_tabparent).append($(`
 		<div id='${id_mytab}' class='${cl_tabdefault}'>
-			<div class='${cl_tabinnerdefault}'>crextab</div>
+			<div class='${cl_tabinnerdefault}'>Margin Calculator</div>
 		</div>
 	`));
 

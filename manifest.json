@@ -4,7 +4,7 @@
   "name": "Binance Plugin (crexalbo)",
   "version": "1.0",
 
-  "description": "Adds a bit of functionality to Binance's trade window, just for funsies",
+  "description": "Adds a bit of functionality to Binance's trade window, just for funsies.\n\nCopyright (C) 2021 Reid Litkauo, License: GNU GPL v3",
 
   "content_scripts": [
     {

@@ -1,6 +1,8 @@
 //##############################################################################
 // /globals.js
 // Keep all the global constants nice and tidy here.
+// Copyright (C) 2021 Reid Litkauo
+// License: GNU GPL v3
 
 // TODO put this in a good spot
 // There's a tiny scrollbar that spans the entire height of the page
